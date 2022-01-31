@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="NetBeans_Demo">
+                <file name="Show_Bundles" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--org.netbeans.demo.osgi.showbundles.ShowBundlesTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//NetBeans Demo//Show Bundles//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="org">
+                <folder name="netbeans">
+                    <folder name="demo">
+                        <folder name="osgi">
+                            <folder name="showbundles">
+                                <file name="ShowBundlesTopComponent">
+                                    <!--org.netbeans.demo.osgi.showbundles.ShowBundlesTopComponent-->
+                                    <attr name="settings.providerPath" stringvalue="xml/lookups//NetBeans_Demo/Show_Bundles.instance"/>
+                                </file>
+                            </folder>
+                        </folder>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="NetBeans_Demo">
+                <file name="Show_Bundles.instance">
+                    <!--org.netbeans.demo.osgi.showbundles.ShowBundlesTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="org.netbeans.demo.osgi.showbundles.ShowBundlesTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="org.netbeans.demo.osgi.showbundles.ShowBundlesTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

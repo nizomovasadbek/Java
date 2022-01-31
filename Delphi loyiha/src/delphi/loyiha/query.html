@@ -1,0 +1,91 @@
+<html>
+<head>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <title> Query </title>
+</head>
+<body>
+  <img class="menur" src="res/rasm.png" align="center">
+  <font size=16 face="Comic Sans MS" align="center"> Query nima? </font>
+  <br><br><br>
+  <font class="menur" face="Comic Sans MS" size=6>
+  Ko`pchilik dasturlashda va ma`lumotlar bazasida ishlayotganimizda bizga<br> malumotlarni saralash tartiblash va hokazo amallarni bajarib beruvchi Query so`rovnoma degan atama bor va uni deyarli barcha ishlatadi.<br>
+ </font>
+ <div class="qism">
+  Demak Query so`rovnomaning asosiy strukturasi <font color="red"> SELECT*FROM [jadval_nomi] </font> <br>
+  Masalan aytaylik bizda `bolalar` degan jadval bo`lsin va biz bolalar degan jadvaldan yoshi 8 dan katta bolalarni chiqaruvchi Query yozamiz.<br>
+  `bolalar` degan jadvalda yosh degan ustunidan foydalanamiz.<br>
+ </div>
+ <div class="kod">
+   <font color="blue"> SELECT * FROM </font> bolalar <font color="blue"> WHERE </font> yosh>8 <font color="blue"> ORDER BY </font> fam
+ </div>
+ <br>
+ <div class="qism">
+   Bu Query so`rovnomada `bolalar` degan jadvaldan faqat yoshi 8 dan katta bo`lgan bolalarni ro`yxatini chiqarib beradi. <br> Hamda fam ustuni bo'yicha ya`ni Familiyasi bo`yicha saralaydi.
+   <br>
+   Jadval bilan bog`lash uchun <u>DBGrid</u> komponentasini ishlatamiz va oynaga joylaymiz.
+ </div>
+ <div class="rasm">
+   <img src="res/dbgrid.png">
+ </div>
+ <div class="qism">
+  DBGrid komponentasi bizga bazadagi ma`lumotlarni jadval ko`rinishida namoyish qilib beradi.<br> <u>DataSource</u> komponentasi bizga baza bilan aloqaga chiqishga yordam beradi.
+ </div>
+ <br>
+ <div class="rasm">
+  <img src="res/ds.PNG" align="center">
+ </div>
+ <div class="qism">
+   Endi bizga quyidagi Query komponentasi kerak bo`ladi:
+ </div>
+ <div class="rasm">
+  <img src="res/query.png">
+ </div>
+ <br>
+ <div class="qism">
+  DataSource ning DataSet qismiga Query komponentasini quyidagicha belgilaymiz.
+ </div>
+ 
+ <div class="rasm">
+  <img src="res/set.png">
+ </div>
+ 
+ <div class="qism">
+  DBGrid komponentasining DataSource qismiga DataSource dan kelgan obyektni ko`rsatib o`tamiz.
+ </div>
+ 
+ <div class="rasm">
+  <img src="res/grid.png">
+ </div>
+ <div class="qism">
+  Query ning SQL degan joyiga quyidagicha o`zgartirish kiritamiz.
+ </div>
+ <div class="rasm">
+ <img src="res/sql.png">
+ </div>
+ 
+ <div class="qism">
+  DatabaseName degan qismiga esa o`zimizning bazamizni yozib qo`yamiz.<br>
+  Mening <u>bolalar</u> degan jadvalim malumotlarbazasi.db faylida saqlangani uchun DatabaseName ga malumotlarbazasi.db ni ko`rsatib qo`ydim.<br>
+  Agar kodni ichida foydalanmoqchi bo`lsangiz quyidagi kodni yozish kerak bo`ladi:
+ </div>
+ 
+ <div class="kod">
+   with form1.qyr1 do begin <br>
+Close; //Avvalgi so`rovnomani tugatish / yopish. <br>
+SQL.Clear; //Avvalgi so`rovnomani tozalash <br>
+//SQL ga yangi so`rovnomalarni jo`natish <br>
+SQL.Add('SELECT fam, ism, yosh');  <br>
+SQL.Add('FROM bolalar'); <br>
+SQL.Add('WHERE'); <br>
+SQL.Add(' yosh > 8 '); <br>
+SQL.Add('ORDER BY fam'); <br>
+Open; //So`rovnoma bajarilishini faollashtiramiz. <br>
+end; <br>
+ </div>
+
+<br>
+<br><br><br><br>
+<marquee> <font face="Consolas" size=18 color="blue"> Bu yerda sizning kanaligiz turishini xohlaysizmi? (Reklama ham qo'yelik) </font> </marquee>
+
+</body>
+</html>

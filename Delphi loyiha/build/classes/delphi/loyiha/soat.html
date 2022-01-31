@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru">
+
+<head>
+    <meta http-equiv="Content-Type" content="application/vnd.wap.xhtml+xml; charset=UTF-8"/>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    <title>Delphi</title>
+
+</head><body>
+
+<div class="matn">Delphi 7 da  soat  dasturini yaratamiz. Buning  uchun Label, Timer obyektlarni joylaymiz. Timer Interval ni 1 qilamiz va  uni procedure
+ushbu jumlani yozamiz </div>
+<div class="kod">procedure TForm2.Timer1Timer(Sender: TObject);
+<p>begin
+<p>Label.Caption:=TimeToStr(Now);
+<p>end;</div>
+<div class="matn"><font color="red"><p>//Time - vaqt
+<p>//To - o`tkazadi
+<p>//Str - satr
+<p>//Now - hozirgi vaqt</font>
+<p> dasturni ishga tushiramiz.Label hozirgi vaqt ko`rsatadi. 14:00:06 shunday formatda agar boshqacha
+formatda  chiqarmoqchi  bo`lsangiz  masalan:
+<p>14.00.06
+<p>14_00_06
+<p>14/00/01
+yoki  o`zingiz hohlagandek chiqarish  uchun
+</div>
+<div class="kod">procedure TForm2.Timer1Timer(Sender: TObject);
+<p>var s:string; i:integer;
+<p>begin
+<p>s:=TimeToStr(now);
+<p>for i:=1 to Length(s) do
+<p>if s[i]=':' then 
+<p>s[i]:='.';
+<p>Label1.Caption:=s;
+</div>
+<div class="matn"> for buni hamma bilsa kerak bilmaganlar aytib o`taman <b>for</b> bu sikl bu faqat butun sonlar uchun ishlatiladi  misol uchun for i:=1 to 100 do bu o`zbekcha 
+tushuntiraman  i uchun 1 dan 100 gacha  degani keyin <b>Length</b> bu satrning uzunligini aniqlaydi va satr uchun ishlatiladi
+if agar then bo`lsa o`zbek tilida tushuntiraman agar s-ni[uzunligi] teng bo`lsa ':' belgiga uni '.' belgisiga almashtir degani
+endi delphi ni bilmaganlar uchun savol tug`ilishi mumkin nimaga Label1.Caption:=s; deb qo`ydingiz deb tepada boshqachaku Caption bu sarlavha bu faqat satr o`zgaruvchilarni qabul qiladi
+

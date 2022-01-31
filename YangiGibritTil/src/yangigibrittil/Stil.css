@@ -1,0 +1,8 @@
+.separator{
+    -fx-background-color: #e79423;
+    -fx-background-radius: 1;
+}
+.button{
+    -fx-background-color: #e79423;
+    -fx-background-radius: 30;
+}

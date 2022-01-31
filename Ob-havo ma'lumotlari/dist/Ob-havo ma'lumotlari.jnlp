@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Ob-havo ma'lumotlari.jnlp">
+  <information>
+    <title>Ob-havo ma'lumotlari</title>
+    <vendor>User</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Ob-havo ma'lumotlari" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="ob.havo.ma.lumotlari.ObHavoMaLumotlari"  name="Ob-havo ma'lumotlari" />
+  <update check="always"/>
+</jnlp>

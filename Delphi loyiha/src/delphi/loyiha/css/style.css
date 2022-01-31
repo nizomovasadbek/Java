@@ -1,0 +1,26 @@
+Body {
+	 max-width: 720px;
+	 margin: auto;
+	 background: #ffffff;
+	 font-size: 14px;
+	 padding: 7px;
+}
+p {
+	margin-bottom: 1.5px;
+	margin-top: 1.5px;
+}
+.kod {
+	  color: #f6ff00;
+	  background: #252525;
+      
+      padding: 12px;
+      margin: 3px;
+      font-size: 14px;	  
+}
+.matn {
+	   color: #252525;
+       background: #ffffff;
+       border: solid 1px #000000;
+	   padding: 12px;
+	   margin: 3px;
+}

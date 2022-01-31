@@ -1,0 +1,26 @@
+.menur{
+ margin: 80px;
+ padding-left: 50px;
+ background: #ffffff;
+}
+.qism{
+padding-left: 30px;
+ font-family: Comic Sans MS;
+ font-size: 20px;
+ padding-top: 30px;
+}
+.kod{
+ border : solid 2px #0ff000;
+ color: #ffff00;
+ background: #131313;
+ font-family: Comic Sans MS;
+ font-size: 20px;
+ padding-left: 30px;
+ padding-top: 10px;
+}
+.rasm{
+ padding-top: 30px;
+ border: solid 3px #1125f3;
+ margin: auto;
+ width: 90%;
+}

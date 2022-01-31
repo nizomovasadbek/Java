@@ -1,0 +1,183 @@
+-------------------------------------------------------------------------------
+>Log Session: Monday, June 24, 2019 1:00:41 PM PKT
+>System Info: 
+  Product Version         = NetBeans Platform 8.2 (Build 201609300101)
+  Operating System        = Windows 7 version 6.1 running on x86
+  Java; VM; Vendor        = 1.8.0_181; Java HotSpot(TM) Server VM 25.181-b13; Oracle Corporation
+  Runtime                 = Java(TM) SE Runtime Environment 1.8.0_181-b13
+  Java Home               = C:\Program Files\Java\jdk1.8.0_181\jre
+  System Locale; Encoding = ru_RU (feedreader); Cp1251
+  Home Directory          = C:\Users\User
+  Current Directory       = C:\PABCWork.NET\JAVA\Feedreader\FeedReader
+  User Directory          = C:\PABCWork.NET\JAVA\Feedreader\build\testuserdir
+  Cache Directory         = C:\PABCWork.NET\JAVA\Feedreader\build\testuserdir\var\cache
+  Installation            = C:\PABCWork.NET\JAVA\Feedreader\build\cluster
+                            C:\Program Files\NetBeans 8.2\platform
+                            C:\Program Files\NetBeans 8.2\platform
+  Boot & Ext. Classpath   = C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\access-bridge.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext\zipfs.jar
+  Application Classpath   = C:\Program Files\NetBeans 8.2\platform\lib\boot.jar;C:\Program Files\NetBeans 8.2\platform\lib\org-openide-modules.jar;C:\Program Files\NetBeans 8.2\platform\lib\org-openide-util-lookup.jar;C:\Program Files\NetBeans 8.2\platform\lib\org-openide-util-ui.jar;C:\Program Files\NetBeans 8.2\platform\lib\org-openide-util.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\boot_ja.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\boot_pt_BR.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\boot_ru.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\boot_zh_CN.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-modules_ja.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-modules_pt_BR.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-modules_ru.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-modules_zh_CN.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-util-lookup_ja.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-util-lookup_pt_BR.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-util-lookup_ru.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-util-lookup_zh_CN.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-util-ui_ja.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-util-ui_pt_BR.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-util-ui_ru.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-util-ui_zh_CN.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-util_ja.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-util_pt_BR.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-util_ru.jar;C:\Program Files\NetBeans 8.2\platform\lib\locale\org-openide-util_zh_CN.jar;C:\Program Files\Java\jdk1.8.0_181\lib\dt.jar;C:\Program Files\Java\jdk1.8.0_181\lib\tools.jar
+  Startup Classpath       = C:\Program Files\NetBeans 8.2\platform\core\asm-all-5.0.1.jar;C:\Program Files\NetBeans 8.2\platform\core\core-base.jar;C:\Program Files\NetBeans 8.2\platform\core\core.jar;C:\Program Files\NetBeans 8.2\platform\core\org-netbeans-libs-asm.jar;C:\Program Files\NetBeans 8.2\platform\core\org-openide-filesystems-compat8.jar;C:\Program Files\NetBeans 8.2\platform\core\org-openide-filesystems.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\core-base_ja.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\core-base_pt_BR.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\core-base_ru.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\core-base_zh_CN.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\core_ja.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\core_pt_BR.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\core_ru.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\core_zh_CN.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-netbeans-libs-asm_ja.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-netbeans-libs-asm_pt_BR.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-netbeans-libs-asm_ru.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-netbeans-libs-asm_zh_CN.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-openide-filesystems-compat8_ja.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-openide-filesystems-compat8_pt_BR.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-openide-filesystems-compat8_ru.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-openide-filesystems-compat8_zh_CN.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-openide-filesystems_ja.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-openide-filesystems_pt_BR.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-openide-filesystems_ru.jar;C:\Program Files\NetBeans 8.2\platform\core\locale\org-openide-filesystems_zh_CN.jar
+-------------------------------------------------------------------------------
+INFO [org.netbeans.core.startup.NbEvents]: Включение модулей:
+	org.openide.util.lookup [8.33.1 201609300101]
+	org.openide.util [9.7.1 201609300101]
+	org.openide.util.ui [9.6.1 201609300101]
+	org.openide.modules [7.48.1 201609300101]
+	org.netbeans.api.annotations.common/1 [1.27.1 201609300101]
+	org.openide.filesystems [9.10.2 201705191307]
+	org.openide.awt [7.67.1 201609300101]
+	org.netbeans.api.progress/1 [1.47.1 201609300101]
+	org.netbeans.api.progress.nb [1.47.1 201609300101]
+	org.openide.dialogs [7.42.1 201609300101]
+	org.openide.nodes [7.45.1 201609300101]
+	org.openide.windows [6.75.1 201609300101]
+	org.netbeans.modules.editor.mimelookup/1 [1.40.1 201609300101]
+	org.openide.text [6.67.1 201609300101]
+	org.netbeans.swing.tabcontrol [1.56.1 201609300101]
+	org.netbeans.swing.outline [1.34.1 201609300101]
+	org.openide.explorer [6.62.1 201609300101]
+	org.openide.actions [6.39.1 201609300101]
+	org.netbeans.modules.queries/1 [1.43.1 201609300101]
+	org.netbeans.api.templates [1.7.1 201609300101]
+	org.openide.filesystems.nb [9.9.2 201612141242]
+	org.openide.loaders [7.66.1 201609300101]
+	org.netbeans.api.intent [1.2.1 201609300101]
+	org.netbeans.api.io [1.3.1 201609300101]
+	org.openide.io [1.49.1 201609300101]
+	org.openide.filesystems.compat8 [9.9.1 201609300101]
+	org.netbeans.swing.plaf [1.41.1 201609300101]
+	org.netbeans.spi.quicksearch [1.27.1 201609300101]
+	org.netbeans.libs.asm [5.3.1 201609300101]
+	org.netbeans.bootstrap/1 [2.76.1 201609300101]
+	org.netbeans.core.startup.base [1.62.1.1 1 201609300101]
+	org.netbeans.core.startup/1 [1.62.1.1 201609300101]
+	org.netbeans.modules.settings/1 [1.49.1 201609300101]
+	org.netbeans.modules.sampler [1.14.1 201609300101]
+	org.netbeans.modules.progress.ui [1.33.1 201609300101]
+	org.netbeans.modules.print [7.26.1 201609300101]
+	org.netbeans.modules.keyring [1.24.1 201609300101]
+	org.netbeans.core/2 [3.51.1 201609300101]
+	org.netbeans.modules.options.api/1 [1.45.1 201609300101]
+	org.netbeans.modules.options.keymap [1.37.1 201609300101]
+	org.netbeans.libs.jna/1 [1.44.1 201609300101]
+	org.netbeans.modules.keyring.fallback [1.8.1 201609300101]
+	org.netbeans.modules.keyring.impl [1.24.1 201609300101]
+	org.netbeans.libs.jna.platform/1 [1.14.1 201609300101]
+	org.jdom [1.0 190624]
+	com.sun.syndication [1.0 190624]
+	com.sun.syndication.fetcher [1.0 190624]
+	org.netbeans.feedreader [1.1 190624]
+	org.netbeans.core.windows/2 [2.81.1 201609300101]
+	org.netbeans.core.ui/1 [1.45.1 201609300101]
+	org.netbeans.core.network [1.10.1 201609300101]
+	org.netbeans.core.nativeaccess/1 [1.31.1 201609300101]
+INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy resolver: Windows
+INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy reloading succeeded.
+INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy - mode: direct
+INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy: fell to default (correct if direct mode went before)
+INFO [org.netbeans.ui.metrics.laf]: USG_LOOK_AND_FEEL
+Diagnostic information
+Input arguments:
+	-Dnetbeans.logger.console=true
+	-ea
+	-Djdk.home=C:\Program Files\Java\jdk1.8.0_181
+	-Djdk.launcher.addexports.0=java.desktop/sun.awt=ALL-UNNAMED
+	-Djdk.launcher.addexports.1=java.base/jdk.internal.jrtfs=ALL-UNNAMED
+	-Djdk.launcher.addexports.2=java.desktop/java.awt.peer=ALL-UNNAMED
+	-Djdk.launcher.addexports.3=java.desktop/com.sun.beans.editors=ALL-UNNAMED
+	-Djdk.launcher.addexports.3=java.desktop/sun.awt.im=ALL-UNNAMED
+	-Djdk.launcher.addexports.4=java.desktop/com.sun.java.swing.plaf.windows=ALL-UNNAMED
+	-Djdk.launcher.addexports.5=java.management/sun.management=ALL-UNNAMED
+	-Dnetbeans.home=C:\Program Files\NetBeans 8.2\platform
+	-Dnetbeans.user=C:\PABCWork.NET\JAVA\Feedreader\build\testuserdir
+	-Dnetbeans.default_userdir_root=
+	-XX:+HeapDumpOnOutOfMemoryError
+	-XX:HeapDumpPath=C:\PABCWork.NET\JAVA\Feedreader\build\testuserdir\var\log\heapdump.hprof
+	-Dsun.awt.keepWorkingSetOnMinimize=true
+	-Dnetbeans.dirs=C:\PABCWork.NET\JAVA\Feedreader\build\cluster;C:\Program Files\NetBeans 8.2\platform
+	exit
+Compiler: HotSpot Tiered Compilers
+Heap memory usage: initial 40,0MB maximum 547,8MB
+Non heap memory usage: initial 2,2MB maximum -1b
+Garbage collector: PS Scavenge (Collections=8 Total time spent=0s)
+Garbage collector: PS MarkSweep (Collections=1 Total time spent=0s)
+Classes: loaded=4626 total loaded=4626 unloaded 0
+INFO [org.netbeans.core.ui.warmup.DiagnosticTask]: Total memory 2 581 966 848
+INFO [null]: Всего физической памяти 2 581 966 848
+SEVERE [org.openide.util.Exceptions]
+java.net.UnknownHostException: planetnetbeans.org
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:463)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:558)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:339)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:357)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1220)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1156)
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1040)
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:1038)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessController.doPrivilegedWithCombiner(AccessController.java:782)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1037)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:984)
+	at com.sun.syndication.fetcher.impl.HttpURLFeedFetcher.retrieveFeed(HttpURLFeedFetcher.java:111)
+	at org.netbeans.feedreader.Feed.getSyndFeed(Feed.java:65)
+Caused: java.io.IOException
+	at org.netbeans.feedreader.Feed.getSyndFeed(Feed.java:71)
+[catch] at org.netbeans.feedreader.nodes.RssFolderChildren.createNodes(RssFolderChildren.java:59)
+	at org.openide.nodes.FilterNode$Children$LazySupport$FilterNodeEntry.nodes(FilterNode.java:1917)
+	at org.openide.nodes.EntrySupportLazyState$EntryInfo.getNode(EntrySupportLazyState.java:296)
+	at org.openide.nodes.FilterNode$Children$LazySupport$FilterLazySnapshot.get(FilterNode.java:1763)
+	at org.openide.nodes.EntrySupportLazy$LazySnapshot.get(EntrySupportLazy.java:908)
+	at org.openide.nodes.EntrySupportLazy$LazySnapshot.get(EntrySupportLazy.java:893)
+	at org.openide.explorer.view.VisualizerChildren.getChildAt(VisualizerChildren.java:127)
+	at org.openide.explorer.view.VisualizerNode.getChildAt(VisualizerNode.java:322)
+	at javax.swing.tree.DefaultTreeModel.getChild(DefaultTreeModel.java:174)
+	at javax.swing.tree.FixedHeightLayoutCache$VisibleFHTreeStateNodeEnumeration.nextElement(FixedHeightLayoutCache.java:1525)
+	at javax.swing.tree.FixedHeightLayoutCache$VisibleFHTreeStateNodeEnumeration.nextElement(FixedHeightLayoutCache.java:1479)
+	at javax.swing.tree.AbstractLayoutCache.getPreferredWidth(AbstractLayoutCache.java:245)
+	at javax.swing.plaf.basic.BasicTreeUI.updateCachedPreferredSize(BasicTreeUI.java:1897)
+	at javax.swing.plaf.basic.BasicTreeUI.getPreferredSize(BasicTreeUI.java:2003)
+	at javax.swing.plaf.basic.BasicTreeUI.getPreferredSize(BasicTreeUI.java:1991)
+	at javax.swing.JComponent.getPreferredSize(JComponent.java:1662)
+	at javax.swing.ScrollPaneLayout.layoutContainer(ScrollPaneLayout.java:791)
+	at org.openide.explorer.view.TreeView$ExplorerScrollPaneLayout.layoutContainer(TreeView.java:1709)
+	at java.awt.Container.layout(Container.java:1513)
+	at java.awt.Container.doLayout(Container.java:1502)
+	at java.awt.Container.validateTree(Container.java:1698)
+	at java.awt.Container.validate(Container.java:1633)
+	at org.openide.explorer.view.TreeView.access$101(TreeView.java:137)
+	at org.openide.explorer.view.TreeView$3.run(TreeView.java:654)
+	at org.netbeans.modules.openide.util.DefaultMutexImplementation.readAccess(DefaultMutexImplementation.java:193)
+	at org.netbeans.modules.openide.util.DefaultMutexImplementation$1R.run(DefaultMutexImplementation.java:1037)
+	at org.openide.nodes.Children$ProjectManagerDeadlockDetector.execute(Children.java:1938)
+	at org.netbeans.modules.openide.util.DefaultMutexImplementation.doWrapperAccess(DefaultMutexImplementation.java:1056)
+	at org.netbeans.modules.openide.util.DefaultMutexImplementation.readAccess(DefaultMutexImplementation.java:183)
+	at org.openide.util.Mutex.readAccess(Mutex.java:260)
+	at org.openide.explorer.view.TreeView.validate(TreeView.java:651)
+	at javax.swing.RepaintManager$3.run(RepaintManager.java:711)
+	at javax.swing.RepaintManager$3.run(RepaintManager.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at javax.swing.RepaintManager.validateInvalidComponents(RepaintManager.java:708)
+	at javax.swing.RepaintManager$ProcessingRunnable.run(RepaintManager.java:1731)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:74)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:159)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:205)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)

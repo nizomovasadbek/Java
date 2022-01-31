@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="com.sun.syndication">
+    <module_version install_time="1561363198380" last="true" origin="installer" specification_version="1.0">
+        <file crc="2139962356" name="config/Modules/com-sun-syndication.xml"/>
+        <file crc="1290081613" name="modules/com-sun-syndication.jar"/>
+        <file crc="1752769456" name="modules/ext/rome-0.6-license.txt"/>
+        <file crc="42823466" name="modules/ext/rome-0.6.jar"/>
+    </module_version>
+</module>

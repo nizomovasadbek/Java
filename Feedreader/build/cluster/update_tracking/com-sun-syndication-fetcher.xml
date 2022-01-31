@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="com.sun.syndication.fetcher">
+    <module_version install_time="1561363201030" last="true" origin="installer" specification_version="1.0">
+        <file crc="33894073" name="config/Modules/com-sun-syndication-fetcher.xml"/>
+        <file crc="384860900" name="modules/com-sun-syndication-fetcher.jar"/>
+        <file crc="4191282803" name="modules/ext/rome-fetcher-0.6-license.txt"/>
+        <file crc="153630034" name="modules/ext/rome-fetcher-0.6.jar"/>
+    </module_version>
+</module>
